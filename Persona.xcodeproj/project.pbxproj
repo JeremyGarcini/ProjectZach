@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043012E95B2DBA4ADA4D4564 /* PersonaMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACF6BC28DAC68530018FC0 /* PersonaMetrics.swift */; };
+		06085BCDA2B75A5A89855C52 /* MessageReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A980B2B68B73FA1A9FE53CD /* MessageReviewView.swift */; };
+		061D96AF66B9CFFA27793F71 /* ApprovalStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2CFE895903ED9475B9EC0C /* ApprovalStageView.swift */; };
+		0A39B3D23557E427A5A6C5A0 /* ApprovalSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F26718BCAA6F014AD3F33 /* ApprovalSheet.swift */; };
+		0FCC6C3E51B97F471032B855 /* ApprovalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340C8635F23C98AA510BA9A /* ApprovalRequest.swift */; };
+		115397514FDAA70FBDCCFD13 /* PersonaApprovalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371642BC56EE252E1E7BE89 /* PersonaApprovalUITests.swift */; };
+		14779DE8C7E1C6633AC46D69 /* MessageProposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CB4D887181CCEC0F498B9 /* MessageProposal.swift */; };
+		1DC9C72216DECA2D12B7D8AC /* SignalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98481F77208AB32BC04000F7 /* SignalTimelineView.swift */; };
+		3D462A26B3CFC625476C4D57 /* ApprovalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255B992D83C4481CE799305 /* ApprovalScreen.swift */; };
+		42C8D30E2B4B0484D3283C33 /* ApprovalFlowStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09D76DC708395CF6B7B0D9 /* ApprovalFlowStore.swift */; };
+		4A3DC7AD1173EB3A9A1FB61C /* PersonaPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD995909E09A5FEEDF34A0B /* PersonaPalette.swift */; };
+		5BB47EE01979E9D90CA479D8 /* ReservationEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CC09FBA4E254C79821D02 /* ReservationEditView.swift */; };
+		61B6F8323DF6FA3F87C4E373 /* ApprovalRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E30F9729C403E416184335 /* ApprovalRequestView.swift */; };
+		6703CC915F7EA9BF1B69EAC2 /* PersonaMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1EE6FC71531B14CB1A605 /* PersonaMark.swift */; };
+		686E50E1088DA8461E2AF6AC /* MessageEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3280F4D2831373272DFCD /* MessageEditView.swift */; };
+		6D3384693E5A36BB72BBDA33 /* ApprovalRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AC6DC286663D877E20481 /* ApprovalRisk.swift */; };
+		79CB331CABC334E6F5905956 /* MessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77755ED45ACA66D9A7135E /* MessageDetailView.swift */; };
+		7B80A129503FD0776083C3D9 /* PersonaControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F0EAA246B5DF7FBC55E07 /* PersonaControls.swift */; };
+		892EB7A1F64E87D21F3C8671 /* ApprovalStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8DE6B4EDD4E80E3880911 /* ApprovalStage.swift */; };
+		927233E3FC27145F7A1E179C /* PersonaTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CE90E5E5D9ED8AE57ED0D9 /* PersonaTypography.swift */; };
+		97FFC5C9F4923785C799F4CA /* ApprovalPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E72D58C5DC2B28F4B11C2F /* ApprovalPayload.swift */; };
+		9F32B276BB9BC69D8521D76E /* ApprovalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1C0430D67963461530C21 /* ApprovalProgressView.swift */; };
+		ADC156647C9C16AE70952689 /* ApprovalTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF63F1CF1C63A01B7822B3 /* ApprovalTopBar.swift */; };
+		AE10765FB393C92618D2612D /* ReservationProposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D99C5B79502B8E44732A9B /* ReservationProposal.swift */; };
+		B1AB728AA2275E6C0FC3142A /* ApprovalDecisionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CEEA2547B04ED728484E8 /* ApprovalDecisionBar.swift */; };
+		C52BB1A14B430C661AF89A10 /* PersonaAura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5B3AF2DF206C8EE8FDEFF /* PersonaAura.swift */; };
+		C6A478C68DC271E9D7FC6FF2 /* ProgressiveBlurEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5E97040B99EDACE8518A8 /* ProgressiveBlurEdge.swift */; };
+		DDB4AF943B6342D9018A7DC0 /* ReservationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60957F827600CB3C93C61303 /* ReservationDetailView.swift */; };
+		E46C3067E18BF081062CDE16 /* ApprovalScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C26D439665C496F6B38496 /* ApprovalScenario.swift */; };
+		EB4C45AFB2F839CCF8361B43 /* PersonaElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECCD3A154C0BF64FC84362 /* PersonaElevation.swift */; };
+		EBDD56D311427E189DE3A3F1 /* ApprovalFlowStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85848B4B490BEA4AB7417CD9 /* ApprovalFlowStoreTests.swift */; };
+		F752763F0625340D10CF9BF2 /* ApprovalOutcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C84E9CD77E5F5D8F1E2D83E /* ApprovalOutcomeView.swift */; };
+		FA022A7D705151DE1CE63F79 /* PersonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41628F72C67F0CB52BFDB7 /* PersonaApp.swift */; };
+		FA55D1C5456AECDC9CA04352 /* PersonaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BC8BD4EB28468BE74A69D /* PersonaSurface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDB065ED99FFC9A0E7F9703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B6860F7D414DAA70ADB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A691285AA2453F559493525;
+			remoteInfo = Persona;
+		};
+		EA2973CFEB1F9E150C32691B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B6860F7D414DAA70ADB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A691285AA2453F559493525;
+			remoteInfo = Persona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038CC09FBA4E254C79821D02 /* ReservationEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationEditView.swift; sourceTree = "<group>"; };
+		199CCDD43CDE072C47E6B721 /* PersonaUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PersonaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2CFE895903ED9475B9EC0C /* ApprovalStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalStageView.swift; sourceTree = "<group>"; };
+		2C84E9CD77E5F5D8F1E2D83E /* ApprovalOutcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalOutcomeView.swift; sourceTree = "<group>"; };
+		36A1EE6FC71531B14CB1A605 /* PersonaMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaMark.swift; sourceTree = "<group>"; };
+		41C26D439665C496F6B38496 /* ApprovalScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalScenario.swift; sourceTree = "<group>"; };
+		52E30F9729C403E416184335 /* ApprovalRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalRequestView.swift; sourceTree = "<group>"; };
+		53E3280F4D2831373272DFCD /* MessageEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEditView.swift; sourceTree = "<group>"; };
+		5F9BC8BD4EB28468BE74A69D /* PersonaSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaSurface.swift; sourceTree = "<group>"; };
+		60957F827600CB3C93C61303 /* ReservationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailView.swift; sourceTree = "<group>"; };
+		62B1C0430D67963461530C21 /* ApprovalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalProgressView.swift; sourceTree = "<group>"; };
+		66E72D58C5DC2B28F4B11C2F /* ApprovalPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalPayload.swift; sourceTree = "<group>"; };
+		6F09D76DC708395CF6B7B0D9 /* ApprovalFlowStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalFlowStore.swift; sourceTree = "<group>"; };
+		74ACF6BC28DAC68530018FC0 /* PersonaMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaMetrics.swift; sourceTree = "<group>"; };
+		85848B4B490BEA4AB7417CD9 /* ApprovalFlowStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalFlowStoreTests.swift; sourceTree = "<group>"; };
+		8A980B2B68B73FA1A9FE53CD /* MessageReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReviewView.swift; sourceTree = "<group>"; };
+		945CEEA2547B04ED728484E8 /* ApprovalDecisionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalDecisionBar.swift; sourceTree = "<group>"; };
+		96A5B3AF2DF206C8EE8FDEFF /* PersonaAura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaAura.swift; sourceTree = "<group>"; };
+		98481F77208AB32BC04000F7 /* SignalTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTimelineView.swift; sourceTree = "<group>"; };
+		A2A4A44F5682507AC8D2E7D4 /* PersonaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PersonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A371642BC56EE252E1E7BE89 /* PersonaApprovalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaApprovalUITests.swift; sourceTree = "<group>"; };
+		A4CE90E5E5D9ED8AE57ED0D9 /* PersonaTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTypography.swift; sourceTree = "<group>"; };
+		A6FF63F1CF1C63A01B7822B3 /* ApprovalTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalTopBar.swift; sourceTree = "<group>"; };
+		B29AC6DC286663D877E20481 /* ApprovalRisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalRisk.swift; sourceTree = "<group>"; };
+		B58CB4D887181CCEC0F498B9 /* MessageProposal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageProposal.swift; sourceTree = "<group>"; };
+		BB9F0EAA246B5DF7FBC55E07 /* PersonaControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaControls.swift; sourceTree = "<group>"; };
+		BF77755ED45ACA66D9A7135E /* MessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailView.swift; sourceTree = "<group>"; };
+		C4E5E97040B99EDACE8518A8 /* ProgressiveBlurEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveBlurEdge.swift; sourceTree = "<group>"; };
+		CFECCD3A154C0BF64FC84362 /* PersonaElevation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaElevation.swift; sourceTree = "<group>"; };
+		D18F26718BCAA6F014AD3F33 /* ApprovalSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalSheet.swift; sourceTree = "<group>"; };
+		D2D99C5B79502B8E44732A9B /* ReservationProposal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationProposal.swift; sourceTree = "<group>"; };
+		DAD995909E09A5FEEDF34A0B /* PersonaPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaPalette.swift; sourceTree = "<group>"; };
+		F255B992D83C4481CE799305 /* ApprovalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalScreen.swift; sourceTree = "<group>"; };
+		F340C8635F23C98AA510BA9A /* ApprovalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalRequest.swift; sourceTree = "<group>"; };
+		F5F8DE6B4EDD4E80E3880911 /* ApprovalStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalStage.swift; sourceTree = "<group>"; };
+		FCFDDE01A608E7A212BADA1C /* Persona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF41628F72C67F0CB52BFDB7 /* PersonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FB93A86E94FBA3C69A2723B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				85FAEEF509B7DE6587B75251 /* Approval */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30C148FC9113ACFD175C2CE3 /* PersonaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A371642BC56EE252E1E7BE89 /* PersonaApprovalUITests.swift */,
+			);
+			path = PersonaUITests;
+			sourceTree = "<group>";
+		};
+		3BD6D20B757CCC95AFA25C3C = {
+			isa = PBXGroup;
+			children = (
+				44E6D5EBA9B196C26044C97D /* Persona */,
+				E31DF3069914FAE3A60D1AB1 /* PersonaTests */,
+				30C148FC9113ACFD175C2CE3 /* PersonaUITests */,
+				504908C248A146FFB2DB47E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435950335D5AC36C3C543D35 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FF41628F72C67F0CB52BFDB7 /* PersonaApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		44E6D5EBA9B196C26044C97D /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				435950335D5AC36C3C543D35 /* Application */,
+				DF24D2BB916838E9CF38D185 /* DesignSystem */,
+				0FB93A86E94FBA3C69A2723B /* Features */,
+				AAEE86DCE47F72959F3F0FFA /* Models */,
+			);
+			path = Persona;
+			sourceTree = "<group>";
+		};
+		504908C248A146FFB2DB47E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDDE01A608E7A212BADA1C /* Persona.app */,
+				A2A4A44F5682507AC8D2E7D4 /* PersonaTests.xctest */,
+				199CCDD43CDE072C47E6B721 /* PersonaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85FAEEF509B7DE6587B75251 /* Approval */ = {
+			isa = PBXGroup;
+			children = (
+				6F09D76DC708395CF6B7B0D9 /* ApprovalFlowStore.swift */,
+				F255B992D83C4481CE799305 /* ApprovalScreen.swift */,
+				DD87BEB185EAF81360CB4B34 /* Components */,
+				C30FB1D30D7DDC4AE9637628 /* Editing */,
+				C472638811DA31E8B2C788AA /* Review */,
+			);
+			path = Approval;
+			sourceTree = "<group>";
+		};
+		AAEE86DCE47F72959F3F0FFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66E72D58C5DC2B28F4B11C2F /* ApprovalPayload.swift */,
+				F340C8635F23C98AA510BA9A /* ApprovalRequest.swift */,
+				B29AC6DC286663D877E20481 /* ApprovalRisk.swift */,
+				41C26D439665C496F6B38496 /* ApprovalScenario.swift */,
+				D18F26718BCAA6F014AD3F33 /* ApprovalSheet.swift */,
+				F5F8DE6B4EDD4E80E3880911 /* ApprovalStage.swift */,
+				B58CB4D887181CCEC0F498B9 /* MessageProposal.swift */,
+				D2D99C5B79502B8E44732A9B /* ReservationProposal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C30FB1D30D7DDC4AE9637628 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				53E3280F4D2831373272DFCD /* MessageEditView.swift */,
+				038CC09FBA4E254C79821D02 /* ReservationEditView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		C472638811DA31E8B2C788AA /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				8A980B2B68B73FA1A9FE53CD /* MessageReviewView.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		DD87BEB185EAF81360CB4B34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				945CEEA2547B04ED728484E8 /* ApprovalDecisionBar.swift */,
+				2C84E9CD77E5F5D8F1E2D83E /* ApprovalOutcomeView.swift */,
+				62B1C0430D67963461530C21 /* ApprovalProgressView.swift */,
+				52E30F9729C403E416184335 /* ApprovalRequestView.swift */,
+				2C2CFE895903ED9475B9EC0C /* ApprovalStageView.swift */,
+				A6FF63F1CF1C63A01B7822B3 /* ApprovalTopBar.swift */,
+				BF77755ED45ACA66D9A7135E /* MessageDetailView.swift */,
+				60957F827600CB3C93C61303 /* ReservationDetailView.swift */,
+				98481F77208AB32BC04000F7 /* SignalTimelineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF24D2BB916838E9CF38D185 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				96A5B3AF2DF206C8EE8FDEFF /* PersonaAura.swift */,
+				BB9F0EAA246B5DF7FBC55E07 /* PersonaControls.swift */,
+				CFECCD3A154C0BF64FC84362 /* PersonaElevation.swift */,
+				36A1EE6FC71531B14CB1A605 /* PersonaMark.swift */,
+				74ACF6BC28DAC68530018FC0 /* PersonaMetrics.swift */,
+				DAD995909E09A5FEEDF34A0B /* PersonaPalette.swift */,
+				5F9BC8BD4EB28468BE74A69D /* PersonaSurface.swift */,
+				A4CE90E5E5D9ED8AE57ED0D9 /* PersonaTypography.swift */,
+				C4E5E97040B99EDACE8518A8 /* ProgressiveBlurEdge.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		E31DF3069914FAE3A60D1AB1 /* PersonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				85848B4B490BEA4AB7417CD9 /* ApprovalFlowStoreTests.swift */,
+			);
+			path = PersonaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A691285AA2453F559493525 /* Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90DA7635D003E4EC009BC97 /* Build configuration list for PBXNativeTarget "Persona" */;
+			buildPhases = (
+				699BC4C0CF4A7B432491AFD7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persona;
+			packageProductDependencies = (
+			);
+			productName = Persona;
+			productReference = FCFDDE01A608E7A212BADA1C /* Persona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE3B7C9780D304476531EE85 /* PersonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79465B885EA2C38068E1DE53 /* Build configuration list for PBXNativeTarget "PersonaTests" */;
+			buildPhases = (
+				F98E37BDAEFB6B43CD5014EF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD974F07C5C89ED13BF82816 /* PBXTargetDependency */,
+			);
+			name = PersonaTests;
+			packageProductDependencies = (
+			);
+			productName = PersonaTests;
+			productReference = A2A4A44F5682507AC8D2E7D4 /* PersonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCED44A60B8DD0FA00FE6CC1 /* PersonaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86C2898D1BB4560A4430897 /* Build configuration list for PBXNativeTarget "PersonaUITests" */;
+			buildPhases = (
+				B334619FDA7F23A024A67839 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37AE04D3D87BC415B8C471C7 /* PBXTargetDependency */,
+			);
+			name = PersonaUITests;
+			packageProductDependencies = (
+			);
+			productName = PersonaUITests;
+			productReference = 199CCDD43CDE072C47E6B721 /* PersonaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B6860F7D414DAA70ADB9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FCED44A60B8DD0FA00FE6CC1 = {
+						TestTargetID = 6A691285AA2453F559493525;
+					};
+				};
+			};
+			buildConfigurationList = EF4E1C80433576C3C1641278 /* Build configuration list for PBXProject "Persona" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3BD6D20B757CCC95AFA25C3C;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A691285AA2453F559493525 /* Persona */,
+				EE3B7C9780D304476531EE85 /* PersonaTests */,
+				FCED44A60B8DD0FA00FE6CC1 /* PersonaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699BC4C0CF4A7B432491AFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AB728AA2275E6C0FC3142A /* ApprovalDecisionBar.swift in Sources */,
+				42C8D30E2B4B0484D3283C33 /* ApprovalFlowStore.swift in Sources */,
+				F752763F0625340D10CF9BF2 /* ApprovalOutcomeView.swift in Sources */,
+				97FFC5C9F4923785C799F4CA /* ApprovalPayload.swift in Sources */,
+				9F32B276BB9BC69D8521D76E /* ApprovalProgressView.swift in Sources */,
+				0FCC6C3E51B97F471032B855 /* ApprovalRequest.swift in Sources */,
+				61B6F8323DF6FA3F87C4E373 /* ApprovalRequestView.swift in Sources */,
+				6D3384693E5A36BB72BBDA33 /* ApprovalRisk.swift in Sources */,
+				E46C3067E18BF081062CDE16 /* ApprovalScenario.swift in Sources */,
+				3D462A26B3CFC625476C4D57 /* ApprovalScreen.swift in Sources */,
+				0A39B3D23557E427A5A6C5A0 /* ApprovalSheet.swift in Sources */,
+				892EB7A1F64E87D21F3C8671 /* ApprovalStage.swift in Sources */,
+				061D96AF66B9CFFA27793F71 /* ApprovalStageView.swift in Sources */,
+				ADC156647C9C16AE70952689 /* ApprovalTopBar.swift in Sources */,
+				79CB331CABC334E6F5905956 /* MessageDetailView.swift in Sources */,
+				686E50E1088DA8461E2AF6AC /* MessageEditView.swift in Sources */,
+				14779DE8C7E1C6633AC46D69 /* MessageProposal.swift in Sources */,
+				06085BCDA2B75A5A89855C52 /* MessageReviewView.swift in Sources */,
+				FA022A7D705151DE1CE63F79 /* PersonaApp.swift in Sources */,
+				C52BB1A14B430C661AF89A10 /* PersonaAura.swift in Sources */,
+				7B80A129503FD0776083C3D9 /* PersonaControls.swift in Sources */,
+				EB4C45AFB2F839CCF8361B43 /* PersonaElevation.swift in Sources */,
+				6703CC915F7EA9BF1B69EAC2 /* PersonaMark.swift in Sources */,
+				043012E95B2DBA4ADA4D4564 /* PersonaMetrics.swift in Sources */,
+				4A3DC7AD1173EB3A9A1FB61C /* PersonaPalette.swift in Sources */,
+				FA55D1C5456AECDC9CA04352 /* PersonaSurface.swift in Sources */,
+				927233E3FC27145F7A1E179C /* PersonaTypography.swift in Sources */,
+				C6A478C68DC271E9D7FC6FF2 /* ProgressiveBlurEdge.swift in Sources */,
+				DDB4AF943B6342D9018A7DC0 /* ReservationDetailView.swift in Sources */,
+				5BB47EE01979E9D90CA479D8 /* ReservationEditView.swift in Sources */,
+				AE10765FB393C92618D2612D /* ReservationProposal.swift in Sources */,
+				1DC9C72216DECA2D12B7D8AC /* SignalTimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B334619FDA7F23A024A67839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115397514FDAA70FBDCCFD13 /* PersonaApprovalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98E37BDAEFB6B43CD5014EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDD56D311427E189DE3A3F1 /* ApprovalFlowStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37AE04D3D87BC415B8C471C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A691285AA2453F559493525 /* Persona */;
+			targetProxy = DFDB065ED99FFC9A0E7F9703 /* PBXContainerItemProxy */;
+		};
+		FD974F07C5C89ED13BF82816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A691285AA2453F559493525 /* Persona */;
+			targetProxy = EA2973CFEB1F9E150C32691B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EE5EB7FFED00A55DEA6F2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z68X2WNTL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Persona;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallenge;
+				PRODUCT_NAME = Persona;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		56D2A882A7467171A85D213E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallengeUITests;
+				SDKROOT = iphoneos;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Persona;
+			};
+			name = Debug;
+		};
+		89F71794C3E46628E74E9694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallengeUITests;
+				SDKROOT = iphoneos;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Persona;
+			};
+			name = Release;
+		};
+		9025F3615150ADBDB04C3586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		9ED5D160F096D09E0B039E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallengeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+			};
+			name = Release;
+		};
+		D5B347AB98B0A06BB74C78A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z68X2WNTL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Persona;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallenge;
+				PRODUCT_NAME = Persona;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F23493D3C50FABB28F58D429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		FCDE66E9299D2E5EB53CBBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremygarcini.PersonaChallengeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79465B885EA2C38068E1DE53 /* Build configuration list for PBXNativeTarget "PersonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE66E9299D2E5EB53CBBEF /* Debug */,
+				9ED5D160F096D09E0B039E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C90DA7635D003E4EC009BC97 /* Build configuration list for PBXNativeTarget "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B347AB98B0A06BB74C78A7 /* Debug */,
+				2EE5EB7FFED00A55DEA6F2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF4E1C80433576C3C1641278 /* Build configuration list for PBXProject "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23493D3C50FABB28F58D429 /* Debug */,
+				9025F3615150ADBDB04C3586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F86C2898D1BB4560A4430897 /* Build configuration list for PBXNativeTarget "PersonaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D2A882A7467171A85D213E /* Debug */,
+				89F71794C3E46628E74E9694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B6860F7D414DAA70ADB9A2 /* Project object */;
+}

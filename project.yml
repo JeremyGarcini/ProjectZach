@@ -1,0 +1,62 @@
+name: Persona
+options:
+  bundleIdPrefix: com.jeremygarcini
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_STRICT_CONCURRENCY: complete
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+targets:
+  Persona:
+    type: application
+    platform: iOS
+    sources:
+      - path: Persona
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremygarcini.PersonaChallenge
+        PRODUCT_NAME: Persona
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_CFBundleDisplayName: Persona
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: true
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+  PersonaTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: PersonaTests
+    dependencies:
+      - target: Persona
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremygarcini.PersonaChallengeTests
+        GENERATE_INFOPLIST_FILE: true
+  PersonaUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: PersonaUITests
+    dependencies:
+      - target: Persona
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremygarcini.PersonaChallengeUITests
+        GENERATE_INFOPLIST_FILE: true
+        SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated
+schemes:
+  Persona:
+    build:
+      targets:
+        Persona: all
+        PersonaTests: [test]
+    test:
+      targets:
+        - PersonaTests
+        - PersonaUITests
