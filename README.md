@@ -46,11 +46,9 @@ Persona/
 ## Documentation
 
 - [`Documentation/DESIGN_SYSTEM.md`](Documentation/DESIGN_SYSTEM.md) — the tokens,
-  the primitives, and the five rules everything follows.
+  the primitives, and the six rules everything follows.
 - [`Documentation/ARCHITECTURE.md`](Documentation/ARCHITECTURE.md) — the code
   structure and every product decision, with the reasoning.
-- [`Documentation/VIDEO_SCRIPT.md`](Documentation/VIDEO_SCRIPT.md) — a timed
-  recording plan covering every state.
 
 ## Tests
 
